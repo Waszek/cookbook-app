@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 
 function Footer(){
     return(
-        <p>działa</p>
+        <p>Książka kucharska 2020&copy;Wszelkie prawa zastrzeżone</p>
     )
 }
 
