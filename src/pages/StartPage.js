@@ -2,9 +2,7 @@ import React from 'react';
 
 function StartPage(){
     return(
-        <h1>
-            Start
-        </h1>
+        <h1>Start</h1>
     )
 }
 

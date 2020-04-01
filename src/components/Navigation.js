@@ -3,21 +3,21 @@ import '../styles/Navigation.css';
 import {NavLink} from 'react-router-dom';
 
 const navList = [
-    {name: "Start", path: "/", exact: true},
-    {name: "Śniadanie", path: "/breakfast"},
-    {name: "Dania obiadowe", path: "/diner"},
-    {name: "Desery", path: "/desserts"},
-    {name: "Kolacja", path: "/supper"},
-    {name: "Zupy", path: "/soup"},
-    {name: "Dania vege", path: "/vege"},
-    {name: "Koktajle", path: "/cocktails"},
+    {index: "1", name: "Start", path: "/", exact: true},
+    {index: "2", name: "Śniadanie", path: "/breakfast"},
+    {index: "3", name: "Dania obiadowe", path: "/diner"},
+    {index: "4", name: "Desery", path: "/desserts"},
+    {index: "5", name: "Kolacja", path: "/supper"},
+    {index: "6", name: "Zupy", path: "/soup"},
+    {index: "7", name: "Dania vege", path: "/vege"},
+    {index: "8", name: "Koktajle", path: "/cocktails"},
 
 ]
 
 function Navigation(){
 
     const menu = navList.map(item => (
-    <li key={item.name}><NavLink to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink></li>
+    <li key={item.name} ><NavLink to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink></li>
     ))
 
     return(

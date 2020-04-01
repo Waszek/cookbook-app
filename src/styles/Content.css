@@ -1,3 +1,69 @@
 .content{
+    padding-top: 20px;
     background-color: #DCE35B;
+    margin: 0px auto;
+}
+
+.card{
+    width:18rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    overflow:hidden;
+    margin:10px 10px;
+}
+.content section{
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.modal-card{
+    flex-basis: 25vw;
+}
+
+div.card{
+    max-height: 390px;
+}
+
+.modal-body{
+    overflow: hidden;
+}
+
+.modal-body img{
+    width: 98%;
+    
+}
+
+.modal-body p{
+    text-align: left;
+}
+
+.modal-body ul{
+    text-align: left;
+}
+
+.modal-body h3{
+    text-align: left;
+    font-size: 18px;
+    margin: 20px auto;
+    border-bottom: 1px dashed black;
+    padding: 5px;
+}
+div.modal-footer{
+    background-color: #DCE35B;
+}
+
+.modal-specification{
+   display: flex;
+   margin-top:30px;
+}
+
+.modal-specification span{
+    flex: 20vw;
+    font-weight: bold;
+}
+.modal-specification span i{
+    margin:10px;
 }
