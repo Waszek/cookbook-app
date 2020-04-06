@@ -4,7 +4,7 @@ import Item from '../components/Item';
 const breakfasts = [
     {
         key:"1",
-        image:"card_img1.jpg",
+        image:"break_img1.jpg",
         card_title: "Jajecznica",
         card_text:"Pyszna jajecznica ze szczypiorkiem i pomidorami koktailowymi",
         modal_title: "Jajecznica",
@@ -21,7 +21,7 @@ const breakfasts = [
     },
     {
         key:"2",
-        image:"card_img2.jpg",
+        image:"break_img2.jpg",
         card_title: "Jajka z chorizo",
         card_text:"Jajka z chorizo z dodatkiem sosu pomidorowego",
         modal_title: "Jajka z chorizo w sosie pomidorowym",
@@ -38,7 +38,7 @@ const breakfasts = [
     },
     {
         key:"3",
-        image:"card_img3.jpg",
+        image:"break_img3.jpg",
         card_title: "Jaglanka z pekanami i syropem klonowym",
         card_text:"Jaglanka, orzechy i syrop klonowy.. Pycha",
         modal_title: "Jaglanka z pekanami i syropem klonowym",
@@ -56,7 +56,7 @@ const breakfasts = [
     },
     {
         key:"4",
-        image:"card_img4.jpg",
+        image:"break_img4.jpg",
         card_title: "Tosty z awokado, jajkiem i sosem holenderskim",
         card_text:"Tosty na każdą okazję!",
         modal_title: "Tosty z awokado, jajkiem w koszulce i sosem holenderskim",

@@ -2,7 +2,7 @@ import React from 'react';
 
 function ErrorPage(){
     return(
-        <h1>Coś poszło nie tak</h1>
+        <h1>Nie ma takiej strony.</h1>
     )
 }
 
